@@ -1,0 +1,171 @@
+<html>
+  <head>
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="doc.css">
+  </head>
+  <body>
+    <div id="sidenav">
+      <nav id="navbar">
+        <header><b>HTML Documentation</b></header>
+        <br>
+        <a href="#HTML_introduction" class="nav-link">HTML introduction</a>
+        <a href="#HTML_basic" class="nav-link">HTML basic</a>
+        <a href="#HTML_Headings" class="nav-link">HTML Headings</a>
+        <a href="#HTML_Paragraphs" class="nav-link">HTML Paragraphs</a>
+        <a href="#HTML_Horizontal_Rules" class="nav-link">HTML Horizontal Rules</a>
+        <a href="#HTML_Elements" class="nav-link">HTML Elements</a>
+        <a href="#HTML_Styles" class="nav-link">HTML Styles</a>
+        <a href="#HTML_Links" class="nav-link">HTML Links</a>
+        <a href="#HTML_Images" class="nav-link">HTML Images</a>
+      </nav>
+    </div>
+
+    <main id="main-doc">
+      <section class="main-section" id="HTML_introduction">
+        <header><h2>HTML introduction
+</h2></header>
+        <p>What is HTML?</p>
+        <p>HTML stands for Hyper Text Markup Language.</p>
+        <p>HTML is the standard markup language for creating Web pages.</p>
+        <p>A Simple HTML Document.</p>
+        <p>Example-</p>
+        <pre>
+          <code>
+            &lt;!DOCTYPE html&gt;
+            &lt;html&gt;
+              &lt;head&gt;
+                &lt;title&gt;Page Title&lt;/title&gt;
+              &lt;/head>
+              &lt;body>
+                &lt;h1>My First Heading&lt;/h1&gt;
+                &lt;p>My first paragraph.&lt;/p&gt;
+              &lt;/body&gt;
+            &lt;/html&gt;
+          </code>
+        </pre>
+      </section>
+
+      <section class="main-section" id="HTML_basic">
+        <header><h2>HTML basic</h2></header>
+        <p>The &lt!DOCTYPE html&gt; declaration defines that this document is an HTML5 document.</p>
+        <ul>
+          <li>The &lt;html&gt; element is the root element of an HTML page.</li>
+          <li>The &lt;head&gt; element contains meta information about the HTML page.</li>
+          <li>The &lt;title&gt; element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab).</li>
+          <li>The &lt;body&gt; element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.</li>
+          <li>The &lt;h1&gt; element defines a large heading.</li>
+          <li>The &lt;p&gt; element defines a paragraph.</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="HTML_Headings">
+        <header><h2>HTML Headings</h2></header>
+        <p>HTML headings are defined with the &lt;h1&gt; to &lt;h6&gt; tags.</p>
+        <p>&lt;h1&gt; defines the most important heading. &lt;h6&gt; defines the least important heading.</p>
+        <p>Example</p>
+        <pre>
+          <code>
+            &lt;h1&gt;This is heading 1&lt;/h1&gt;
+            &lt;h2&gt;This is heading 2&lt;/h2&gt;
+            &lt;h3&gt;This is heading 3&lt;/h3&gt;
+          </code>
+        </pre>
+      </section>
+
+      <section class="main-section" id="HTML_Paragraphs">
+        <header><h2>HTML Paragraphs</h2></header>
+        <p>HTML paragraphs are defined with the &lt;p&gt; tag:</p>
+        <p>Example</p>
+        <pre>
+          <code>
+            &lt;p&gt;This is a paragraph.&lt;/p&gt;
+            &lt;p&gt;This is another paragraph.&lt;/p&gt;
+          </code>
+        </pre>
+      </section>
+
+      <section class="main-section" id="HTML_Horizontal_Rules">
+        <header><h2>HTML Horizontal Rules</h2></header>
+        <p>The &lt;hr&gt; tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.</p>
+        <p>The &lt;hr&gt; element is used to separate content (or define a change) in an HTML page:</p>
+        <p>Example</p>
+        <pre>
+          <code>
+            &lt;h1&gt;This is heading 1&lt;/h1&gt;
+            &lt;p&gt;This is some text.&lt;/p&gt;
+            &lt;hr&gt;
+            &lt;h2&gt;This is heading 2&lt;/h2&gt;
+            &lt;p&gt;This is some other text.&lt;/p&gt;
+            &lt;hr&gt;
+          </code>
+        </pre>
+      </section>
+
+      <section class="main-section" id="HTML_Elements">
+        <header><h2>HTML Elements</h2></header>
+        <p>An HTML element is defined by a start tag, some content, and an end tag:</p>
+        <p>&lt;tagname&gt;Content goes here...&lt;/tagname&gt;</p>
+        <p>The HTML element is everything from the start tag to the end tag:</p>
+        <pre>
+          <code>
+            &lt;h1&gt;My First Heading&lt;/h1&gt;
+            &lt;p&gt;My first paragraph.&lt;/p&gt;
+          </code>
+        </pre>
+      </section>
+
+      <section class="main-section" id="HTML_Styles">
+        <header><h2>HTML Styles</h2></header>
+        <p>Setting the style of an HTML element, can be done with the <code>style</code> attribute.</p>
+        <p>The HTML <code>style</code> attribute has the following syntax:</p>
+        <pre>
+          <code>&lt;tagname style="property:value;"&gt;</code>
+        </pre>
+        <h3>Background Color</h3>
+        <p>The CSS <code>background-color</code> property defines the background color for an HTML element.</p>
+        <p>Example</p>
+        <pre>
+          <code>
+            &lt;body style="background-color:powderblue;"&gt;
+              &lt;h1&gt;This is a heading&lt;/h1&gt;
+              &lt;p&gt;This is a paragraph.&lt;/p&gt;
+            &lt;/body&gt;
+          </code>
+        </pre>
+      </section>
+
+      <section class="main-section" id="HTML_Links">
+        <header><h2>HTML Links</h2></header>
+        <p>HTML links are hyperlinks.</p>
+        <p>You can click on a link and jump to another document.</p>
+        <p>The HTML &lt;a&gt; tag defines a hyperlink. It has the following syntax:</p>
+        <code>&lt;a href="url"&gt;Link test&lt;/a&gt;</code>
+        <p>Example</p>
+        <pre>
+          <code>
+            &lt;a href="https://www.freecodecamp.org/"&gt;Visit FreeCodeCamp&lt;/a&gt;
+          </code>
+        </pre>
+      </section>
+
+      <section class="main-section" id="HTML_Images">
+        <header><h2>HTML Images</h2></header>
+        <p>The HTML &lt;img&gt; tag is used to embed an image in a web page.</p>
+        <p>The &lt;img&gt; tag is empty, it contains attributes only, and does not have a closing tag.</p>
+        <p>Syntax</p>
+        <pre>
+          <code>&lt;img src="url" alt="alternatetext"&gt;</code>
+        </pre>
+        <h3>Image Size - Width and Height</h3>
+        <p>You can use the style attribute to specify the width and height of an image.</p>
+        <p>Example</p>
+        <pre>
+          <code>
+            &lt;img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;"&gt;
+          </code>
+        </pre>
+
+      </section>
+    </main>
+  </body>
+</html>

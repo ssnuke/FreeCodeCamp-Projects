@@ -1,0 +1,112 @@
+@media screen and (min-width: 480px) {
+  body{
+      font-weight:bold;
+  }
+
+body{
+    background-image:url('https://img.freepik.com/free-vector/3d-hexagon-wall-with-neon-glow-background_93536-370.jpg?size=626&ext=jpg');
+    background-attachment:fixed;
+    background-size:cover;
+}
+#heading{
+    color: #4dff4d;
+    text-align: center;
+}
+#nav-bar{
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  top:0;
+  width:100%;
+  height:35px;
+}
+#nav-bar a{
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 5px 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+#nav-bar a:hover{
+  background-color: #66ff66;
+  color: black;
+}
+#header-img{
+  border-radius:25px;
+}
+#shortform{
+  font-size:28px;
+   color: #4dff4d;
+  }
+#frm{
+  text-align:center;
+  border-style:solid;
+  border-radius:25px;
+  margin-left:500px;
+  margin-right:500px;
+  background-color: hsla(355, 100%, 55%, 0.52);
+}
+  #email{
+    margin-top:10px;
+  }
+#submit{
+    margin-top:15px;
+    margin-bottom:10px;
+    background-color:#46463f;
+    color:white;
+}
+  #submit:hover{
+    background-color:#66ff66;
+    color:black;
+  }
+  #Features{
+    text-align:center;
+    color:white;
+
+  }
+#container {
+  display: flex;
+  flex-direction: column;
+}
+  #ul{
+    margin-left:400px;
+    margin-right:400px;
+    border-style:bold;
+    border-radius:15px;
+    background-color:hsla(0, 0%, 16%, 0.6);
+  }
+
+#preference{
+  display:flex;
+  flex-direction:row;
+}
+#budget{
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px;
+  width: 200px;
+  height: 280px;
+  margin-left:250px;
+  margin-right:25px;
+}
+#midrange{
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px;
+  width: 200px;
+  height: 280px;
+  margin-left:25px;
+  margin-right:25px;
+}
+#highend{
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px;
+  width: 200px;
+  height:280px;
+  margin-bottom:25px;
+}
+#About{
+  text-align:center;
+}

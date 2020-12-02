@@ -1,0 +1,41 @@
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+body{
+  background-color:lightblue;
+}
+
+#sidenav{
+  height:100%;
+  width:180px;
+  position:fixed;
+  z-index:1;
+  top:0;
+  left:0;
+  background-color:lgihtblue;
+  padding-left:15px;
+  overflow:scroll;
+}
+#sidenav a{
+  display:block;
+  text-decoration:none;
+  font-size:20px;
+  font-weight:bold;
+  color:black;
+  padding: 5px 10px 5px 5px;
+}
+#sidenav a:hover{
+  background-color:lightgrey;
+}
+#main-doc{
+  background-color:white;
+  margin-left:187px;
+}
+.main-section>header{
+  background-color:lightblue;
+}
+.main-section p{
+  margin-left:20px;
+}
